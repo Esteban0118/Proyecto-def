@@ -11,6 +11,7 @@ function App() {
       <h1>Prueba</h1>
       <p>David</p>
       <p>no fue mi culpa</p>
+      <h5>Sebastian se lo tiro</h5>
     </div>
   );
 }
