@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './Inicio.css';
-import { Buttom } from './Button';
+import { Button } from './Button';
 
 function Inicio() {
     return (
