@@ -8,6 +8,7 @@ function App() {
       <h2>Adios</h2>
       <h3>Sebastian</h3>
       <h4>Carlos</h4>
+      <h1>Prueba</h1>
     </div>
   );
 }
