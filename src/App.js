@@ -10,6 +10,7 @@ function App() {
       <h4>Carlos</h4>
       <h1>Prueba</h1>
       <p>David</p>
+      <p>no fue mi culpa</p>
     </div>
   );
 }
