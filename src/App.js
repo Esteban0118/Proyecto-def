@@ -9,7 +9,7 @@ function App() {
       <h3>Sebastian</h3>
       <h4>Carlos</h4>
       <h1>Prueba</h1>
-      <h2>Hola2.0</h2>
+      <p>David</p>
       <h5>Sebastian se lo tiro</h5>
     </div>
   );
