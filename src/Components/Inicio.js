@@ -1,6 +1,7 @@
-import React from 'react'
-import '../App.css'
-import './Inicio.css'
+import React from 'react';
+import '../App.css';
+import './Inicio.css';
+import { Buttom } from './Button';
 
 function Inicio() {
     return (
