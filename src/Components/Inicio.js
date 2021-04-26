@@ -1,6 +1,6 @@
 import React from 'react'
-import '../App.css';
-import './Inicio.css';
+import '../App.css'
+import './Inicio.css'
 
 function Inicio() {
     return (
