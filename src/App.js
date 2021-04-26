@@ -9,6 +9,7 @@ function App() {
       <h3>Sebastian</h3>
       <h4>Carlos</h4>
       <h1>Prueba</h1>
+      <p>David</p>
     </div>
   );
 }
