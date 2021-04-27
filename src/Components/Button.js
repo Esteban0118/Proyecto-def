@@ -24,7 +24,7 @@ buttonSize
             
             <Link to='/sign-up' className='btn-mobile'>
                 <button 
-                    className={`btn ${checkButtonStyle} ${checkButtonStyle}`}
+                    className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                     onClick={onClick}
                     type={type}
                 >
