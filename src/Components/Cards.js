@@ -5,22 +5,38 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC Destinations!</h1>
+            <h1>BIENVENIDOS A NUESTRA PAGINA</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                        src='images/img-9.jpg'
-                        text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                        label='Adventure'
+                        src='images/Bogota.jpg'
+                        text='La bella capital de Colombia'
+                        label='Bogota'
                         path='/'
                         />
                         <CardItem
-                        src='images/img-2.jpg'
-                        text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                        label='Adventure'
+                        src='images/medellin-colombia.jpg'
+                        text='Medellin la cuidad de la eterna primavera'
+                        label='Medellin'
                         path='/'
                         />
+                    
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem
+                        src='images/CALI.jpg'
+                        text='La bella capital de Colombia'
+                        label='Cali'
+                        path='/'
+                        />
+                        <CardItem
+                        src='images/cartagena-de-indias.jpg'
+                        text='Medellin la cuidad de la eterna primavera'
+                        label='Medellin'
+                        path='/'
+                        />
+                    
                     </ul>
                 </div>
             </div>
