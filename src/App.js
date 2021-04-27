@@ -2,14 +2,23 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
+import Home from './Components/pages/Home';
+import Temperaturas from './Components/pages/Temperaturas';
+import TemperaturasEst from './Components/pages/TemperaturasEst';
+import IniciarSesion from './Components/pages/IniciarSesion';
+import Registrarse from './Components/pages/Registrarse';
 
 function App() {
   return (
     <>
     <Router>
-      <Navbar />
+      <Navbar/>
       <Switch>
-        <Route path='/' exact />
+        <Route path='/' exact component={Home} />
+        <Route path='Temperaturas' component={Temperaturas} />
+        <Route path='TemperaturaEst' component={TemperaturasEst} />
+        <Route path='IniciarSesion' component={IniciarSesion} />
+        <Route path='Registrarse' component={Registrarse} />
       </Switch>
     </Router>
       
