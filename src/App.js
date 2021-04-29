@@ -17,7 +17,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='Temperaturas' component={Temperaturas} />
         <Route path='TemperaturaEst' component={TemperaturasEst} />
-        <Route path='IniciarSesion' component={IniciarSesion} />
+        <Route path='/iniciarsesion' component={IniciarSesion} />
         <Route path='Registrarse' component={Registrarse} />
       </Switch>
     </Router>

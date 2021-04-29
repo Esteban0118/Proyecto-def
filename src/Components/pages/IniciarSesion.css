@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monserrat, sans-serif;
+   
+}
+
+input, button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.IniciarSesion{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #53565A;
+}
+
+form{
+    display: block;
+    position: relative;   
+}
+
+
+form .form-inner{
+     position: relative;
+     display: block;
+     background-image: linear-gradient(to bottom right,BLACK,#B828B0);
+     padding: 300px;
+     z-index: 2;
+}
+
+form label,h2,input {
+    color: white;
+}

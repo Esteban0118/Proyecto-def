@@ -53,7 +53,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links-mobile' onClick={claseMobileMenu}>
+                            <Link to='./Registrarse' className='nav-links-mobile' onClick={claseMobileMenu}>
                             Registrarse
                             </Link>
                         </li>

@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Inicio.css';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 function Inicio() {
     return (
@@ -14,8 +15,10 @@ function Inicio() {
                 Consultar la temperatura de tu país nunca ha sido tan fácil
             </p>
             <div className="inicio-btns">
+                
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Consultar
+                    Iniciar Secion
+                    <Link to='/IniciarSesion' className='btn-mobile' />
                 </Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
                      VER TRAILER <i className='far
