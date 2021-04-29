@@ -22,7 +22,7 @@ buttonSize
 
         return(
             
-            <Link to='/sign-up' className='btn-mobile'>
+            <Link to='/iniciarsesion' className='btn-mobile'>
                 <button 
                     className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                     onClick={onClick}
@@ -32,6 +32,7 @@ buttonSize
                 </button>
 
             </Link>
+            
 
 
         );
