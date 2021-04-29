@@ -6,7 +6,7 @@ import { Button } from './Button';
 function Inicio() {
     return (
         <div className='inicio-container'>
-            <video src="/videos/video-1.mp4" autoPlay loop muted/>
+            <video src="/videos/video-3.mp4" autoPlay loop muted/>
             <h1>
                 ¿Qué estás esperando?
             </h1>
@@ -15,12 +15,9 @@ function Inicio() {
             </p>
             <div className="inicio-btns">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Consultar
+                    Iniciar Sesion
                 </Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                     VER TRAILER <i className='far
-                    fa-play-circle' />
-                </Button>
+                
             </div>
         </div>
     )

@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Proyecto Trabajo Integrador Arquitectura-Web
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Universidad Catolica de Colombia
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribete</Button>
+            <Button buttonStyle='btn--outline'>Registrarse</Button>
           </form>
         </div>
       </section>

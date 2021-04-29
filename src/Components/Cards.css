@@ -1,10 +1,11 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: rgb(44, 4, 41);
   }
   
   h1 {
     text-align: center;
+    color: white;
   }
   
   .cards__container {
@@ -66,7 +67,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #c322d1;
     box-sizing: border-box;
   }
   
@@ -94,7 +95,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #ffffff;
     font-size: 18px;
     line-height: 24px;
   }

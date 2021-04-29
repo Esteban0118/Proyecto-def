@@ -8,17 +8,25 @@ function Cards() {
             <h1>BIENVENIDOS A NUESTRA PAGINA</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
-                    <ul className='cards__items'>
+                <ul className='cards__items'>
                         <CardItem
                         src='images/Bogota.jpg'
                         text='La bella capital de Colombia'
                         label='Bogota'
                         path='/'
                         />
+
                         <CardItem
-                        src='images/medellin-colombia.jpg'
-                        text='Medellin la cuidad de la eterna primavera'
+                        src='images/Medellin.jpg'
+                        text='La ciudad de la Primavera'
                         label='Medellin'
+                        path='/'
+                        />
+
+                        <CardItem
+                        src='images/Bucaramanga.jpg'
+                        text='La ciudad de la Primavera'
+                        label='Bucaramanga'
                         path='/'
                         />
                     
@@ -26,14 +34,21 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                         src='images/CALI.jpg'
-                        text='La bella capital de Colombia'
+                        text='La sultana del hermoso Valle'
                         label='Cali'
                         path='/'
                         />
+
                         <CardItem
-                        src='images/cartagena-de-indias.jpg'
-                        text='Medellin la cuidad de la eterna primavera'
-                        label='Medellin'
+                        src='images/Cartagena.jpg'
+                        text=' Bella Cartagena de Indias'
+                        label='Cartagena'
+                        path='/'
+                        />
+                        <CardItem
+                        src='images/Tunja.jpg'
+                        text=' Bella Cartagena de Indias'
+                        label='Tunja'
                         path='/'
                         />
                     
