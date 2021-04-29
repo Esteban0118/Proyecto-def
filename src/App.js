@@ -19,6 +19,10 @@ function App() {
         <Route path='TemperaturaEst' component={TemperaturasEst} />
         <Route path='/iniciarsesion' component={IniciarSesion} />
         <Route path='Registrarse' component={Registrarse} />
+        <Route path='/temperaturas' component={Temperaturas} />
+        <Route path='/temperaturaest' component={TemperaturasEst} />
+        <Route path='/iniciarsesion' component={IniciarSesion} />
+        <Route path='/registrarse' component={Registrarse} />
       </Switch>
     </Router>
       
