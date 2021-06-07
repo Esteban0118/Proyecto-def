@@ -119,8 +119,8 @@
     font-size: 100px;
   }
 
-  .iniciarsesion {
-   /* background-image: url('/src/images/img-9.jpg');*/
+  .IniciarSesion {
+   background-image: url('./Assets/img-16.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
