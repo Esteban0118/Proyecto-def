@@ -1,0 +1,32 @@
+*{
+    margin-top: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+.TemperaturasEst {
+
+    margin: auto;;
+    padding: auto;
+    box-shadow: 0 0 0px 1px rgba(238, 235, 235, 0.3);
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+    border-color: cornsilk;
+    
+
+}
+.Formulario.label {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+
+}
+
+.TemperaturasEst h2{
+    text-align: center;
+    margin-top: auto;
+    padding: 50px;
+    color: White;
+}

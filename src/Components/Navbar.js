@@ -48,7 +48,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={claseMobileMenu}>
+                            <Link to='/temperaturaest' className='nav-links' onClick={claseMobileMenu}>
                             Consultar Estadisticas
                             </Link>
                         </li>

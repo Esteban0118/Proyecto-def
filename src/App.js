@@ -9,7 +9,6 @@ import IniciarSesion from './Components/pages/IniciarSesion';
 import Registrarse from './Components/pages/Registrarse';
 import Formulario from './Components/pages/Formulario';
 
-
 function App() {
   return (
     <>
@@ -18,7 +17,6 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='Temperaturas' component={Temperaturas} />
-        <Route path='TemperaturaEst' component={TemperaturasEst} />
         <Route path='/iniciarsesion' component={IniciarSesion} />
         <Route path='Registrarse' component={Registrarse} />
         <Route path='/temperaturas' component={Temperaturas} />
