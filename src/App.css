@@ -9,7 +9,8 @@
   .temperaturas,
   .temperaturasest,
   .registrarse,
-  .iniciarsesion {
+  .iniciarsesion
+  {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -120,7 +121,7 @@
   }
 
   .IniciarSesion {
-   background-image: url('./Assets/img-16.jpg');
+    background-image: url('./Assets/img-16.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

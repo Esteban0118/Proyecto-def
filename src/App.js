@@ -7,6 +7,8 @@ import Temperaturas from './Components/pages/Temperaturas';
 import TemperaturasEst from './Components/pages/TemperaturasEst';
 import IniciarSesion from './Components/pages/IniciarSesion';
 import Registrarse from './Components/pages/Registrarse';
+import Formulario from './Components/pages/Formulario';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         <Route path='/temperaturaest' component={TemperaturasEst} />
         <Route path='/iniciarsesion' component={IniciarSesion} />
         <Route path='/registrarse' component={Registrarse} />
+        <Route path='/Formulario' component ={Formulario}/>
       </Switch>
     </Router>
       

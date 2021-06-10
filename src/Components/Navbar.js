@@ -53,10 +53,16 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
+                            <Link to='./Formulario' className='nav-links' onClick={claseMobileMenu}>
+                            Formulario
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
                             <Link to='./Registrarse' className='nav-links-mobile' onClick={claseMobileMenu}>
                             Registrarse
                             </Link>
                         </li>
+                        
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>REGISTRARSE</Button>}
                 </div> 
