@@ -1,46 +1,49 @@
 import React, {useState} from 'react';
 import '../../Components/pages/Formulario.css';
-
-
-
+import { createAPIEndpoint, ENDPOINTS } from '../../api' ;
 export default function Formulario() {
 
-    const [nombre, setNombre] = useState("Escriba su Nombre");
-    const [Ciudad, setCiudad] = useState("Escriba la Ciudad");
-    const [Temp, setTemperatura] = useState("Escriba la Temperatura");
-    const [date, setFecha] = useState("Escriba la Temperatura");
-
+    const [values, setValues] = useState({
+        ciudad: '',
+        temp: '',
+        fecha: ''
+    })
+    const handleChange = e =>{
+        const {name, value} = e.target;
+        setValues({
+            ...values,
+            [name]: value
+        });
+    }
+    const enviarTemp = () => {
+        values.temp = parseInt(values.temp);
+        createAPIEndpoint(ENDPOINTS.TEMPERATURA).create(values)
+        .then(res =>{
+            console.log(res);
+            alert("Envio de temperatura exitoso");
+        })
+        .catch(err => console.log(err));
+        console.log(values);
+    }
 
     return(
     <>
         <div className="Formulario">
         <h1>Formulario</h1>
         
-        <form>
-            <label htmlFor="nombre">Nombre y Apellido</label>
-            <input type="text" id="nombre" name="nombre" 
-            value={nombre} onChange={(e) => setNombre(e.target.value)}
-            />
+        <form >
+            <label htmlFor="ciudad">Ingrese la Ciudad</label>
+            <input type="text" name="ciudad" onChange={handleChange} />
         </form>
         <form >
-            <label htmlFor="Ciudad">Ingrese la Ciudad</label>
-            <input type="text" id="Ciudad" name="Ciudad" 
-            value={Ciudad} onChange={(e) => setCiudad(e.target.value)}
-            />
+            <label htmlFor="temp">Temperatura  (Celsius) </label>
+            <input type="number" name="temp" onChange={handleChange} />
         </form>
         <form >
-            <label htmlFor="Temp">Temperatura  (Celsius) </label>
-            <input type="number" id="Temp" name="Temp" 
-            value={Temp} onChange={(e) => setTemperatura(e.target.value)}
-            />
+            <label htmlFor="fecha">Fecha</label>
+            <input type="date" name="fecha"onChange={handleChange} />
         </form>
-        <form >
-            <label htmlFor="Fecha">Fecha</label>
-            <input type="date" id="Fecha" name="Fecha" 
-            value={date} onChange={(e) => setFecha(e.target.value)}
-            />
-        </form>
-        <button>Guardar</button>
+        <button onClick={() => enviarTemp()}>Guardar</button>
         </div>
     </>
     );
