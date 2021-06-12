@@ -39,7 +39,7 @@ export default function Formulario() {
     return(
     <>
         <div className="Formulario">
-        <h1>Formulario</h1>
+        <h1>Ingresar Temperaturas</h1>
         
         <form >
             <label htmlFor="ciudad">Ingrese la Ciudad</label>
