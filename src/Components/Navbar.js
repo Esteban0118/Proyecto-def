@@ -38,11 +38,6 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={claseMobileMenu}>
-                            Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
                             <Link to='/temperaturas' className='nav-links' onClick={claseMobileMenu}>
                             Ver Temperaturas
                             </Link>
@@ -54,17 +49,10 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='./Formulario' className='nav-links' onClick={claseMobileMenu}>
-                            Formulario
+                            Ingresar Temperatura
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='./Registrarse' className='nav-links-mobile' onClick={claseMobileMenu}>
-                            Registrarse
-                            </Link>
-                        </li>
-                        
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>REGISTRARSE</Button>}
                 </div> 
             </nav>  
         </>
