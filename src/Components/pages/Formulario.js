@@ -16,14 +16,24 @@ export default function Formulario() {
         });
     }
     const enviarTemp = () => {
-        values.temp = parseInt(values.temp);
+
+        var x = 0;
+
+        if(values.ciudad.length == 0 ||  values.temp.length == 0 ||  values.fecha.length == 0){
+            alert("Campos Incompletos.");
+            x=1;
+            console.log(values);
+        }
+        if (x==0){
+            values.temp = parseInt(values.temp);
         createAPIEndpoint(ENDPOINTS.TEMPERATURA).create(values)
         .then(res =>{
             console.log(res);
             alert("Envio de temperatura exitoso");
         })
         .catch(err => console.log(err));
-        console.log(values);
+        console.log(values); 
+        }
     }
 
     return(

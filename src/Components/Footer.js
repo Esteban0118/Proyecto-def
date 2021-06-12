@@ -13,23 +13,12 @@ function Footer() {
         <p className='footer-subscription-text'>
           Universidad Catolica de Colombia
         </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Registrarse</Button>
-          </form>
-        </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>Como Trabajamos</Link>
+            <Link to='/'>Como Trabajamos</Link>
             
           </div>
           <div class='footer-link-items'>
@@ -58,7 +47,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>Temperaturas © 2020</small>
+          <small class='website-rights'>Temperaturas © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -17,7 +17,7 @@ function Inicio() {
             <div className="inicio-btns">
                 
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Iniciar Sesion
+                    Ver Temperatura
                 </Button>
                 
             </div>

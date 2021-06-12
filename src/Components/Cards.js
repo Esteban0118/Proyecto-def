@@ -47,7 +47,7 @@ function Cards() {
                         />
                         <CardItem
                         src='images/Tunja.jpg'
-                        text=' Bella Cartagena de Indias'
+                        text='La bella ciudad del ciclismo'
                         label='Tunja'
                         path='/'
                         />
