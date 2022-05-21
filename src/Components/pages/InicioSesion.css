@@ -1,0 +1,16 @@
+h1{
+    color: #fff;
+}
+.btn-sg{
+    padding: 20px 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    padding: 20px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    
+}

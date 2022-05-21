@@ -23,7 +23,7 @@ buttonSize
 
         return(
             
-            <Link to='/temperaturas' className='btn-mobile'>
+            <Link to='/InicioSesion' className='btn-mobile'>
                 <button 
                     className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                     onClick={onClick}

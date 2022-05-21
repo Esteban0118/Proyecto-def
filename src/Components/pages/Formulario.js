@@ -1,7 +1,12 @@
 import React, {useState} from 'react';
 import '../../Components/pages/Formulario.css';
 import { createAPIEndpoint, ENDPOINTS } from '../../api' ;
+import Footer from '../Footer';
+
+
 export default function Formulario() {
+
+    
 
     const [values, setValues] = useState({
         ciudad: '',
@@ -39,21 +44,21 @@ export default function Formulario() {
     return(
     <>
         <div className="Formulario">
-        <h1>Ingresar Temperaturas</h1>
+            <h1>Ingresar Temperaturas</h1>
         
-        <form >
-            <label htmlFor="ciudad">Ingrese la Ciudad</label>
-            <input type="text" name="ciudad" onChange={handleChange} />
-        </form>
-        <form >
-            <label htmlFor="temp">Temperatura  (Celsius) </label>
-            <input type="number" name="temp" onChange={handleChange} />
-        </form>
-        <form >
-            <label htmlFor="fecha">Fecha</label>
-            <input type="date" name="fecha"onChange={handleChange} />
-        </form>
-        <button onClick={() => enviarTemp()}>Guardar</button>
+            <form >
+                <label htmlFor="ciudad">Ingrese la Ciudad</label>
+                <input type="text" name="ciudad" onChange={handleChange} />
+            </form>
+            <form >
+                <label htmlFor="temp">Temperatura  (Celsius) </label>
+                <input type="number" name="temp" onChange={handleChange} />
+            </form>
+            <form >
+                <label htmlFor="fecha">Fecha</label>
+                <input type="date" name="fecha"onChange={handleChange} />
+            </form>
+                <button onClick={() => enviarTemp()}>Guardar</button>
         </div>
     </>
     );

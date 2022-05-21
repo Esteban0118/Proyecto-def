@@ -8,10 +8,13 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Proyecto Trabajo Integrador Arquitectura-Web
+        PRUEBA TÉCNICA
+
+          VACANTE DESARROLLADOR/DISEÑADOR
+          FRONTEND
         </p>
         <p className='footer-subscription-text'>
-          Universidad Catolica de Colombia
+          Esteban David Bolaños Sanchez
         </p>
       </section>
       <div class='footer-links'>
@@ -43,11 +46,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Temperaturas
-              <i class='fab fa-typo3' />
+            <img className='image-logo-footer' src = 'images/Logo.PNG' />
             </Link>
           </div>
-          <small class='website-rights'>Temperaturas © 2021</small>
+          <small class='website-rights'>Prueba Tecnica © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

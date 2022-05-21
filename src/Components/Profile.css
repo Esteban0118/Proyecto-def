@@ -1,0 +1,12 @@
+.img-user{
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.email{
+    color: black;
+    text-align: center;
+}

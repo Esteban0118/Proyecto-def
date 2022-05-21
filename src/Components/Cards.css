@@ -1,12 +1,17 @@
 .cards {
     padding: 4rem;
-    background: rgb(44, 4, 41);
+    background: rgb(8, 8, 8);
   }
   
   h1 {
     text-align: center;
     color: white;
   }
+  h3 {
+    text-align: center;
+    color: white;
+  }
+
   
   .cards__container {
     display: flex;
@@ -37,7 +42,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(238, 255, 3, 0.534);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -66,8 +71,8 @@
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
-    background-color: #c322d1;
+    color: rgb(238, 241, 8);
+    background-color: #030303;
     box-sizing: border-box;
   }
   
@@ -98,6 +103,31 @@
     color: #ffffff;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .history{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: auto;
+  }
+  .img-above{
+    height: 30%;
+    width: 25%;
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 250px;
+    box-shadow: 0 6px 20px rgba(238, 255, 3, 0.534);
+
+  }
+
+  p{
+    
+    align-content: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: auto;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1200px) {

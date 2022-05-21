@@ -1,10 +1,11 @@
-video{
+.gif{
     object-fit: cover;
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -1;
 }
+
 
 .inicio-container{
     /*background: url('images/img-home.jpg') center center/cover
@@ -19,24 +20,29 @@ video{
     object-fit: contain;
 }
 .inicio-container > h1 {
-color: #fff;
+color: rgb(8, 8, 8);
 font-size: 100px;
 margin-top: -100px;
 }
 
 .inicio-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 32px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .inicio-btns {
     margin-top: 32px;
+    color: black;
+    text-align: center;
+    
+
 }
 
 .inicio-btn {
     margin: 6px;
+    color: black;
 }
 
 .fa-play-circle {
@@ -68,4 +74,5 @@ margin-top: -100px;
 
 .btn{
     width: 100%;
+    color: black;
 }

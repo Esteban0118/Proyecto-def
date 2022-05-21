@@ -3,9 +3,9 @@ import Navbar from './Components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './Components/pages/Home';
-import Temperaturas from './Components/pages/Temperaturas';
 import TemperaturasEst from './Components/pages/TemperaturasEst';
 import Formulario from './Components/pages/Formulario';
+import Walkers from './Components/pages/Walkers';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/temperaturas' component={Temperaturas} />
+        <Route path='/Walkers' component={Walkers} />
         <Route path='/temperaturaest' component={TemperaturasEst} />
         <Route path='/Formulario' component ={Formulario}/>
       </Switch>

@@ -17,16 +17,6 @@
     font-size: 3rem;
   }
   
-  .temperaturas {
-    background-image: url('./Assets/img-16.jpg');
-    background-position: bottom;
-    background-size: cover;
-    transition: 0.4 ease-out;
-    background-repeat: no-repeat;
-    color: rgb(248, 248, 248);
-    font-size: 50px;
-  }
-
   .search-box{
     width: 100%;
     margin: 0 0 75px;
@@ -102,7 +92,7 @@
   }
   
   .registrarse {
-    /*background-image: url('/src/images/img-9.jpg');*/
+    background-color:#313131;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,7 +101,7 @@
   }
 
   .IniciarSesion {
-    background-image: url('./Assets/img-16.jpg');
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

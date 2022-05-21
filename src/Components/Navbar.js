@@ -2,6 +2,9 @@ import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
+import { LogoutBoutton } from './LogOut';
+import {Profile} from './Profile'
+import { LoginButton } from './pages/InicioSesion';
 
 
 function Navbar() {
@@ -31,27 +34,33 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to="/" className='navbar-logo' onClick={claseMobileMenu}>
-                        TEMPERATURAS <i className='fab fa-typo3'/>
+                        <img className='image-logo' src = 'images/Logo.PNG' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/temperaturas' className='nav-links' onClick={claseMobileMenu}>
-                            Ver Temperaturas
+                            <Link to='/Walkers' className='nav-links' onClick={claseMobileMenu}>
+                            Paseadores
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/temperaturaest' className='nav-links' onClick={claseMobileMenu}>
-                            Consultar Estadisticas
+                            Nuestra Historia
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='./Formulario' className='nav-links' onClick={claseMobileMenu}>
-                            Ingresar Temperatura
+                            Registrate
                             </Link>
                         </li>
+                        <li >
+                            <Link to= './InicioSesion' className='nav-sign' >
+                                <LoginButton />
+                            </Link>
+                        </li>
+                        
                     </ul>
                 </div> 
             </nav>  
