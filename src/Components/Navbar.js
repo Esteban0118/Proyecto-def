@@ -45,11 +45,7 @@ function Navbar() {
                             Paseadores
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='/temperaturaest' className='nav-links' onClick={claseMobileMenu}>
-                            Nuestra Historia
-                            </Link>
-                        </li>
+                        
                         <li className='nav-item'>
                             <Link to='./Formulario' className='nav-links' onClick={claseMobileMenu}>
                             Registrate

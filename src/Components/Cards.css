@@ -112,11 +112,11 @@
     padding: auto;
   }
   .img-above{
-    height: 30%;
-    width: 25%;
+    height: 50%;
+    width: 50%;
     margin-top: auto;
     padding: 10px;
-    border-radius: 250px;
+    border-radius: 55px;
     box-shadow: 0 6px 20px rgba(238, 255, 3, 0.534);
 
   }

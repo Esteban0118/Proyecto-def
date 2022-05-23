@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
 import './Inicio.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 import {LoginButton} from './pages/InicioSesion';
 import { LogoutBoutton } from './LogOut';
 import { Profile } from './Profile';
